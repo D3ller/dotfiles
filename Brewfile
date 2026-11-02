@@ -7,6 +7,7 @@ cask "brave-browser"
 cask "temurin@25"
 cask "orbstack"
 cask "raycast"
+cask "ghostty"
 
 # Install CLI Tools
 brew "node" # Node.js runtime
@@ -20,3 +21,4 @@ brew "cmake" # Build C and C++
 brew "gradle" # Java build automation
 brew "nano" # To replace the nano command from macOs
 brew "lua" # Install lua programming language
+brew "fastfetch"
