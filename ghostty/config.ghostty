@@ -1,5 +1,28 @@
-background = 191A1C
+palette = 0=#131b4b
+palette = 1=#ff5555
+palette = 2=#4bff79
+palette = 3=#f5ff87
+palette = 4=#0743ff
+palette = 5=#ff79c6
+palette = 6=#89eaff
+palette = 7=#ffffeb
+
+palette = 8=#131b4b
+palette = 9=#ff5555
+palette = 10=#4bff79
+palette = 11=#f5ff87
+palette = 12=#0743ff
+palette = 13=#ff79c6
+palette = 14=#89eaff
+palette = 15=#ffffeb
+
+background = #131b4b
+foreground = #ffffeb
+cursor-color = #ffffeb
+cursor-text = #131b4b
+selection-background = #ffffeb
+selection-foreground = #131b4b
 font-family = "JetBrains Mono"
-window-width = 90
-window-height = 22
+window-width = 101
+window-height = 25
 window-theme = "ghostty"
