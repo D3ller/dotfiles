@@ -30,6 +30,12 @@ configure_environment() {
     echo "Setting up Zed..."
     mkdir -p "$HOME/.config/zed"
     cp "$DOTFILES/zed/settings.json" "$HOME/.config/zed/settings.json"
+
+    echo "Setting up Ghostty..."
+    GHOSTTY_CONFIG="$HOME/Library/Application Support/com.mitchellh.ghostty"
+    
+    mkdir -p "$GHOSTTY_CONFIG"
+    cp "$DOTFILES/ghostty/config.ghostty" "$GHOSTTY_CONFIG/config.ghostty"
 }
 
 
