@@ -6,7 +6,7 @@ cask "discord"
 cask "brave-browser"
 cask "temurin@25"
 cask "orbstack"
-cask "raycast"
+cask "tinycast"
 cask "ghostty"
 
 # Install CLI Tools
