@@ -1,12 +1,25 @@
-// Zed settings
-//
-// For information on how to configure Zed, see the Zed
-// documentation: https://zed.dev/docs/configuring-zed
-//
-// To see all of Zed's default settings without changing your
-// custom settings, run `zed: open default settings` from the
-// command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "debugger": {
+    "dock": "right"
+  },
+  "title_bar": {
+    "show_sign_in": false
+  },
+  "use_display_p3": false,
+  "agent": {
+    "max_content_width": 0.0,
+    "button": false,
+    "favorite_models": [],
+    "model_parameters": []
+  },
+  "collaboration_panel": {
+    "button": false
+  },
+  "outline_panel": {
+    "button": false
+  },
+  "show_edit_predictions": false,
+  "cli_default_open_behavior": "new_window",
   "cursor_animation": {
     "enabled": true
   },
@@ -33,4 +46,24 @@
     "light": "Ayu Light",
     "dark": "JetBrains Islands Dark",
   },
+  "theme_overrides": {
+    "JetBrains Islands Dark": {
+      "background.appearance": "blurred",
+      "background": "#00000099",
+      "editor.background": "#00000000",
+      "editor.gutter.background": "#00000000",
+      "panel.background": "#00000000",
+      "surface.background": "#00000000",
+      "title_bar.background": "#00000000",
+      "title_bar.inactive_background": "#00000000",
+      "toolbar.background": "#00000000",
+      "status_bar.background": "#00000000",
+      "tab_bar.background": "#00000000",
+      "tab.inactive_background": "#00000000",
+      "tab.active_background": "#ffffff10",
+      "editor.active_line.background": "#ffffff0d",
+      "elevated_surface.background": "#1a1a1ff0"
+    }
+  },
+  "max_tabs": 3
 }
