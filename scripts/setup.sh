@@ -29,13 +29,23 @@ install_dependencies() {
 configure_environment() {
     echo "Setting up Zed..."
     mkdir -p "$HOME/.config/zed"
-    cp "$DOTFILES/zed/settings.json" "$HOME/.config/zed/settings.json"
+    ln -sfn "$DOTFILES/zed/settings.json" "$HOME/.config/zed/settings.json"
 
     echo "Setting up Ghostty..."
     GHOSTTY_CONFIG="$HOME/Library/Application Support/com.mitchellh.ghostty"
     
     mkdir -p "$GHOSTTY_CONFIG"
     cp "$DOTFILES/ghostty/config.ghostty" "$GHOSTTY_CONFIG/config.ghostty"
+
+    echo "Setting up Helix..."
+    mkdir -p "$HOME/.config"
+    ln -sfn "$DOTFILES/helix" "$HOME/.config/helix"
+
+    echo "Setting up Starship..."
+    ln -sfn "$DOTFILES/starship/starship.toml" "$HOME/.config/starship.toml"
+
+    echo "Setting up bat..."
+    ln -sfn "$DOTFILES/bat" "$HOME/.config/bat"
 }
 
 

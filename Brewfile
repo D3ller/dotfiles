@@ -22,3 +22,6 @@ brew "gradle" # Java build automation
 brew "nano" # To replace the nano command from macOs
 brew "lua" # Install lua programming language
 brew "fastfetch"
+brew "helix" # Modal text editor (hx)
+brew "starship"
+brew "bat"
