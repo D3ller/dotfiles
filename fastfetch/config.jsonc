@@ -1,15 +1,15 @@
 {
   "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
   "logo": {
-    "type": "file",
-    "source": "$HOME/.config/fastfetch/cry.txt",
+    "type": "kitty-direct",
+    "source": "$HOME/.config/fastfetch/miku.png",
     "color": {
-      "1": "35"
+      "1": "38;2;57;197;187"
     },
-    "width": null,
-    "height": null,
+    "width": 18,
+    "height": 8,
     "padding": {
-      "top": 1,
+      "top": 6,
       "left": 5,
       "right": 5
     },
@@ -30,10 +30,10 @@
     "hideCursor": false,
     "separator": "   ",
     "color": {
-      "keys": "cyan",
-      "title": "green",
-      "output": "",
-      "separator": ""
+      "keys": "38;2;79;195;247",
+      "title": "38;2;79;195;247",
+      "output": "38;2;168;216;240",
+      "separator": "38;2;79;195;247"
     },
     "brightColor": true,
     "duration": {
@@ -112,6 +112,7 @@
     "break",
     {
       "type": "title",
+      "format": "{#1;38;2;79;195;247}d3ller@macbook",
       "keyIcon": "",
       "fqdn": false,
       "color": {
@@ -125,18 +126,15 @@
     {
       "type": "os",
       "key": "OS",
-      "keyColor": "red",
       "keyIcon": ""
     },
     {
       "type": "shell",
       "key": "Shell",
-      "keyColor": "red"
     },
     {
       "type": "de",
       "key": "󰟀 DE",
-      "keyColor": "red"
     },
     "break",
     {
@@ -190,7 +188,6 @@
     {
       "type": "uptime",
       "key": "Uptime",
-      "keyColor": "red"
     },
     {
       "type": "battery",
@@ -208,10 +205,8 @@
     },
     "break",
     {
-      "type": "colors",
-      "key": " ",
-      "keyIcon": "",
-      "paddingLeft": 0
+      "type": "custom",
+      "format": "{#38;2;19;122;127}● {#38;2;57;197;187}● {#38;2;134;206;203}● {#38;2;225;40;133}● {#38;2;55;59;62}● {#38;2;190;200;209}●"
     }
   ]
 }
