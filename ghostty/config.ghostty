@@ -16,7 +16,7 @@ palette = 13=#ff79c6
 palette = 14=#89eaff
 palette = 15=#ffffeb
 
-background = #131b4b
+background = #000000
 foreground = #ffffeb
 cursor-color = #ffffeb
 cursor-text = #131b4b
@@ -26,3 +26,5 @@ font-family = "JetBrains Mono"
 window-width = 101
 window-height = 25
 window-theme = "ghostty"
+background-opacity = 0.7
+background-blur = 20
