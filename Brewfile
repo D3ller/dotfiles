@@ -1,6 +1,5 @@
 # Installing app with visual interface
 cask "zed"
-cask "intellij-idea"
 cask "obsidian"
 cask "discord"
 cask "brave-browser"
