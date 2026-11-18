@@ -1,0 +1,39 @@
+theme = "transparent"
+
+[editor]
+line-number = "relative"
+cursorline = true
+cursorcolumn = true
+color-modes = true
+true-color = true
+bufferline = "multiple"
+
+[editor.cursor-shape]
+insert = "block"
+normal = "block"
+select = "block"
+
+[editor.indent-guides]
+render = true
+
+[editor.lsp]
+display-inlay-hints = true
+display-messages = true
+
+[keys.normal]
+A-left = ["move_prev_word_start", "collapse_selection"]
+A-right = ["move_next_word_end", "collapse_selection"]
+A-b = ["move_prev_word_start", "collapse_selection"]
+A-f = ["move_next_word_end", "collapse_selection"]
+
+[keys.insert]
+A-left = "move_prev_word_start"
+A-right = "move_next_word_end"
+A-b = "move_prev_word_start"
+A-f = "move_next_word_end"
+
+[keys.select]
+A-left = "extend_prev_word_start"
+A-right = "extend_next_word_end"
+A-b = "extend_prev_word_start"
+A-f = "extend_next_word_end"

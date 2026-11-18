@@ -1,0 +1,11 @@
+inherits = "jetbrains_dark"
+
+"ui.background" = { fg = "#bcbec4" }
+"ui.gutter" = {}
+"ui.gutter.selected" = {}
+"ui.statusline" = { fg = "#bcbec4" }
+"ui.statusline.inactive" = { fg = "#6f737a" }
+"ui.cursorline.primary" = { bg = "#1a1a1f" }
+"ui.cursorcolumn.primary" = { bg = "#1a1a1f" }
+"ui.cursor.primary" = { fg = "#131b4b", bg = "#39c5bb", modifiers = ["bold"] }
+"ui.cursor.match" = { fg = "#39c5bb", modifiers = ["bold", "underlined"] }
