@@ -13,6 +13,11 @@ insert = "block"
 normal = "block"
 select = "block"
 
+[editor.auto-save]
+focus-lost = true
+after-delay.enable = true
+after-delay.timeout = 300
+
 [editor.indent-guides]
 render = true
 

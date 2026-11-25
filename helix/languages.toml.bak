@@ -1,0 +1,22 @@
+[[language]]
+name = "c"
+auto-format = false
+indent = { tab-width = 4, unit = "\t" }
+
+[language-server.clangd]
+command = "clangd"
+args = ["--header-insertion=never", "--clang-tidy"]
+
+[language-server.rust-analyzer.config]
+check.command = "clippy"
+
+[[language]]
+name = "rust"
+auto-format = true
+
+[[language]]
+name = "objc"
+scope = "source.objc"
+file-types = ["m"]
+language-servers = ["clangd"]
+indent = { tab-width = 4, unit = "\t" }

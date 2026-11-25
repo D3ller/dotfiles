@@ -43,8 +43,8 @@
   },
   "theme": {
     "mode": "dark",
-    "light": "Ayu Light",
-    "dark": "JetBrains Islands Dark",
+    "light": "JetBrains Islands Dark",
+    "dark": "JetBrains Islands Dark"
   },
   "theme_overrides": {
     "JetBrains Islands Dark": {

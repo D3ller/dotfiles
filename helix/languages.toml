@@ -13,3 +13,11 @@ check.command = "clippy"
 [[language]]
 name = "rust"
 auto-format = true
+
+[[language]]
+name = "objc"
+scope = "source.objc"
+file-types = ["m"]
+comment-token = "//"
+language-servers = ["clangd"]
+indent = { tab-width = 4, unit = "\t" }
