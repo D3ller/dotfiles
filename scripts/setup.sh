@@ -3,7 +3,6 @@
 set -e
 
 DOTFILES="$HOME/.dotfiles"
-SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 install_homebrew() {
     if ! command -v brew >/dev/null 2>&1; then
@@ -22,7 +21,7 @@ clone_dotfiles() {
 
 install_dependencies() {
     echo "Installing dependencies..."
-    brew bundle --file="$SCRIPT_DIR/Brewfile"
+    brew bundle --file="$DOTFILES/Brewfile"
 }
 
 
@@ -46,6 +45,15 @@ configure_environment() {
 
     echo "Setting up bat..."
     ln -sfn "$DOTFILES/bat" "$HOME/.config/bat"
+
+    echo "Setting up zsh..."
+    if [ -f "$HOME/.zshrc" ] && [ ! -L "$HOME/.zshrc" ]; then
+        mv "$HOME/.zshrc" "$HOME/.zshrc.bak"
+    fi
+    ln -sfn "$DOTFILES/zsh/.zshrc" "$HOME/.zshrc"
+
+    echo "Setting up fastfetch..."
+    ln -sfn "$DOTFILES/fastfetch" "$HOME/.config/fastfetch"
 }
 
 

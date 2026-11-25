@@ -20,3 +20,8 @@ xcode-select --install
 ```bash
 exec zsh -l
 ```
+
+4. Configure the Dock and wallpaper
+```bash
+bash ~/.dotfiles/scripts/mac.sh
+```

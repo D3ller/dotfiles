@@ -1,8 +1,8 @@
 # Installing app with visual interface
 cask "zed"
-cask "obsidian"
 cask "discord"
 cask "brave-browser"
+cask "search-browser"
 cask "temurin@25"
 cask "orbstack"
 cask "tinycast"
@@ -24,3 +24,7 @@ brew "fastfetch"
 brew "helix" # Modal text editor (hx)
 brew "starship"
 brew "bat"
+
+# Utils for configuration
+brew "dockutil" # Dock configuration
+brew "wallpaper" # Change wallpaper
